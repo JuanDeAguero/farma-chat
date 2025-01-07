@@ -12,7 +12,12 @@ const App = () => {
             </div>
         </nav>
         <div className="chat">
-            
+            <div className="chat-right">
+                bla bla bla
+            </div>
+            <div className="chat-left">
+                bla bla bla
+            </div>
             <div className="chat-input-wrapper">
                 <div className="chat-input-bar">
                     <input className="chat-input" placeholder="Escribe tu mensaje aqui." />

@@ -26,17 +26,33 @@ nav {
 .chat {
     background-color: white;
     height: 100%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.chat-right {
+    background-color: rgb(200, 200, 200);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+.chat-left {
+    margin-left: 10px;
+    width: 300px;
 }
 .chat-input-wrapper {
     position: fixed;
     display: flex;
     bottom: 0;
     width: 100vw;
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 .chat-input-bar {
-    width: calc(100% - 40px);
-    background-color: gray;
+    width: calc(100% - 20px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,9 +65,9 @@ nav {
     background-color: transparent;
     border: none;
     margin-left: 20px;
+    margin-right: 20px;
     height: 100%;
     width: 100%;
-    margin-right: 20px;
     font-size: 16px;
     color: black;
 }

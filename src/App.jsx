@@ -1,0 +1,27 @@
+import "./App.css"
+
+const App = () => {
+    return (
+    <div className="app">
+        <nav>
+            <div className="nav-title">
+                FARMA CHAT
+            </div>
+            <div className="nav-subtitle">
+                Farmacia Gómez de Agüero
+            </div>
+        </nav>
+        <div className="chat">
+            
+            <div className="chat-input-wrapper">
+                <div className="chat-input-bar">
+                    <input className="chat-input" placeholder="Escribe tu mensaje aqui." />
+                    <button className="chat-send">ENVIAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    )
+}
+
+export default App
